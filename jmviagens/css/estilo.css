@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+body{
+	margin:0;
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*.logo{
+	background: url('../img/logo.png') 50% 50% no-repeat;
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 5000px;
+}*/
+
+.logo{
+	width: 100%;
+	height: auto;
+	padding-top:20px;
+}
+
+.logo img{
+	margin-left: 270px;
+}
+
+.menu{
+	float:right;
+}
+
+.menu ul{
+	list-style: none;
+	margin-top: -60px;
+	padding-right: 270px;
+}
+
+.menu ul li{
+	display: inline;
+}
+
+.menu ul li a{
+	padding: 2px 5px;
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+}
+
+.menu ul li a:hover{
+	background-color:#007987;
+    color: #FFFFFF;
+    border-bottom:3px solid #f49e42;
+}
+
+.principal{
+	width: 100%;
+}
+
+.imagem{
+	text-align: center;
+}
+
+.conteudo{
+	margin-top: 30px;
+	margin-right: 270px;
+	margin-left: 270px;
+}
+
+.titulo{
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: 800
+}
+
+.tagline{
+	text-align: justify;
+	font-size:0.96em;
+	font-weight: 400;
+}
+
+.rodape{
+	margin-top: 30px;
+	margin-right: 270px;
+	margin-left: 270px;
+}
+
+.footer{
+	text-align: center;
+	font-size: 0.96em;
+	text-transform: uppercase;
+	font-weight: 800;
+}
